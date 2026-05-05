@@ -1,0 +1,8 @@
+nome = str(input('Me fale o seu nome completo '))
+print(len(nome))
+print('O nome em maísculas {}'.format(nome.upper()))
+print('O nome em minusculas {}'.format(nome.lower()))
+x = nome.replace(' ', '')
+print('O nome possui {} letras'.format(len(x)))
+Y = nome.split()
+print('O primeiro nome tem {} letras'.format(len(Y[0])))

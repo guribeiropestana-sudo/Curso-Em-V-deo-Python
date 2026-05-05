@@ -1,0 +1,5 @@
+nom = str(input('Fale o seu nome completo ')).strip()
+x = nom.split()
+print(x[0])
+print(x[len(x)-1])
+print(len(x))

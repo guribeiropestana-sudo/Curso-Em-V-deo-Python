@@ -1,0 +1,6 @@
+num = str(input('fale um numero de 0 há 9999 '))
+print('Analisando o número {}, temos:'.format(num))
+print('Milhar: {}'.format(num[0:1]))
+print('Centena: {}'.format(num[1:2]))
+print('Dezena: {}'.format(num[2:3]))
+print('Unidade: {}'.format(num[3:4]))
